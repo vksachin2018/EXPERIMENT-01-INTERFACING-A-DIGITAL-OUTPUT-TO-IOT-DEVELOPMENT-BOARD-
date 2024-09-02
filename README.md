@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 19.08.24
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: GOKUL SACHIN K
+###  ROLL NO :212223220025
+###  DEPARTMENT: INFORMATION TECHNOLOGY
 
 
 
@@ -86,12 +86,23 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(1000);
+  }
+```
 
 
 
 
 
 ## OUTPUT  :
+![Screenshot 2024-08-19 145439](https://github.com/user-attachments/assets/acbf2414-33be-49ff-b419-edba613e83e7)
+
  
  
  
